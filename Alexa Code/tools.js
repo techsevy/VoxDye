@@ -4,7 +4,7 @@ module.exports =
 		process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
 	  	const https = require('https');
 		var options = {
-		  hostname: '10.0.0.1',
+		  hostname: '2601:282:80',
 		  port: 80,
 		  path: "/index.php?intensity=" + intensity + "&fade=" + fade + "&color=" + color + "&get=1",
 		  method: 'GET',
